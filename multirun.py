@@ -22,19 +22,19 @@ if __name__ == '__main__':
 
     agents_knowledge_state = 2
 
-    if hostname == 'DESKTOP-LA':
-        print('DESKTOP-LA')
-        machine_name = 'HO'
+    if hostname == 'DESKTOP-LA8NF7N':  # HOME
+        print('DESKTOP-LA8NF7 (HOME)')
+        machine_name = 'HOME'
         n_processors = 5
         config_set = 0
-    elif hostname == 'ab':
-        print('AB-1')
-        machine_name = 'L1'
+    elif hostname == 'ercument-lab':  # LAB-1
+        print('ercument-lab (LAB-1)')
+        machine_name = 'LAB-1'
         n_processors = 6
         config_set = 1
-    elif hostname == 'DESKTOP-8A':
-        print('DESKTOP-8A')
-        machine_name = 'L2'
+    elif hostname == 'DESKTOP-8A3QAR8':  # LAB-2
+        print('DESKTOP-8A3QAR8 (LAB-2)')
+        machine_name = 'LAB-2'
         n_processors = 6
         config_set = 2
 
